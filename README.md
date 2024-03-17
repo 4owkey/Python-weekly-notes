@@ -68,7 +68,7 @@ WEEK 1
 
 Day 2 
 	   
-   Functions
+   FUNCTIONS
        
      • A function is like a machine that takes inputs and produces outputs.
 	   • Functions can be defined using the "def" keyword followed by the function name and arguments in parentheses.
@@ -187,6 +187,20 @@ Day 4
 Day 5
 
   LIST COMPREHENSIONS
+
+     • Using a list comprehension, we can multiply each item in the list.
+     • The list comprehension is enclosed in square brackets, and the syntax is similar to that of a for loop.
+     • You can use any variable name to represent an item in the list, as long as you use the same consistently throughout.
+     • A list comprehension allows you to create a for loop in one line while also returning a copy of the list you're iterating over.
+     • It also enables you to filter or apply functions to every item in a list.
+     • There's a string function called split, it allows you to split a string based on a given character or string.
+     • If no delimiter is specified, the split function will split the string based on spaces.
+
+  DICTIONARIES AND COMPREHENSIONS
+
+     • You can use dictionary comprehensions to create a new dictionary from iterable structure, much like list comprehensions create a new list.
+     
+     
 
       
      
