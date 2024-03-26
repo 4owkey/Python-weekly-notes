@@ -259,7 +259,7 @@ WEEK 2
 
   FUNCTIONS AS VARIABLES
 
-      VARIABLES AS FUNCTIONS
+     VARIABLES AS FUNCTIONS
 
           • Variables and functions both have names and data associated with them.
           • However, for functions, this data includes information about required parameters and the lines of instruction to be executed.
@@ -283,6 +283,32 @@ WEEK 2
           • Lambda functions are concise and convenient for writing small functions that you need while writing code.
 
  DAY 2
+
+   ANATOMY OF A CLASS
+
+      INSTANCE ATTRIBUTES
+
+          • The topic of classes can be overwhelming and hard to understand.
+	  • We may not be sure what they are or how to determine which class a member belongs to.
+   	  • We cannot directly see the value of the legs attribute, even though it is hardcoded in the dog initialization function.
+      	  • If we try to access "dog.legs," we will get an error, and we cannot modify the value of legs.
+
+      STATIC ATTRIBUTES
+
+          • Instead of keeping it in the constructor, define it as a static variable outside of the constructor.
+	  • This means that each instance of the class will have the same value for legs.
+   	  • The legs attribute can be accessed directly on the class itself by calling do.<=gs.
+      	  • These variables are called "static" because they don't change with each instance and are commonly used to hold constants or fundamental business logic. 
+	  • It is important to note that static variables can still be changed, so to prevent this, programmers conventionally add an underscore before the variable name.
+   	  • This indicates that the variable should not be modified directly, and a getter method should be used instead.
+          • A getter method retrieves the value of the variable, and in this case, it would be >= t <= gs.
+	  • However, this does not actually need to pass in the self attribute for this method, because legs is a static variable in the class.
+   	  • Call the method in the traditional way, without passing in self, but it is also possible to call it with self included.
+      	  • Classes have their own variable scope rules similar to functions.
+	  • If is not set to something else, it references the class variable self.<=gs. 
+	  
+
+     
 
 
 
