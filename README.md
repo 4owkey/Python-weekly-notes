@@ -311,6 +311,11 @@ WEEK 2
           • However, the instance variable <=gs can also be modified by assigning a new value to MY(d)Og.<=gs. 
 
       INSTANCE AND STATIC METHODS
+
+          • The clean text method is a static method because it does not belong to any particular class instance, whereas add text is an instance method that belongs to a particular instance of the class.
+	  • Static variables like replace puncs can also be added to control which punctuations get replaced.
+   	  • Use either the class name or the class instance to refer to static variables, but cannot be done with instance methods.
+          • By adding the @staticmethod decorator to the function definition, it explicitly states in Python that the function is a static method and should not have "self" passed in as an argument.
 	  
 
      
