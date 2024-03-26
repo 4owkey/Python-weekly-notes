@@ -202,6 +202,101 @@ Day 5
      
      
 
+# Python-week-2
+
+WEEK 2
+
+  DAY 1
+
+   ANATOMY OF A FUNCTION
+
+          • Functions are composed of a name and parameters, which are denoted by the def statement.
+          • We have Named Parameters.
+          • There is a rule when using keyword arguments in Python i.e. they must come after the positional arguments.
+          • The order of the first two arguments is important and cannot be changed.
+          • However, after these mandatory arguments, the keyword arguments can be in any order.
+          • While optional arguments are useful, there is a functional limitation to how many variables can be anticipated.
+          • If we want to allow users to pass in any number of variables, use the asterisk symbol before the argument name to create a pointer to the inputted variables. 
+          • This trick works only for positional arguments, not keyword arguments.
+
+      **KWARGS
+
+          • In order to handle keyword arguments, a method called kwargs can be used.
+          • Kwags is short for keyword arguments.
+          • Print kwargs to see that the keyword arguments are now stored as a dictionary instead of a tuple.
+          • This makes sense because keyword arguments have keys and values and can be passed in any order, so a dictionary is a more appropriate data structure for referencing them.
+
+  VARIABLES AND SCOPE
+
+       FUNCTION SCOPE
+
+          • In our earlier section, *args and **kwargs were used to print out the arguments passed into a function.
+          • However, there's another method that allows us to access all the variables within a Python function without any asterisks.
+          • This method is called the "locals" function.
+
+       LOCALS()
+
+          • Why is it named locals? These are the variable names that are only accessible locally within the function.
+          • Remember, variables can be defined by any name within the function definition, and it will be available anywhere within that function.
+          • However, trying to reference a variable outside its scope will result in an error. 
+          • In Python, there are two types of variables: local variables, which are defined inside the function, and global variables, which are defined outside the function in the main code block.
+
+      GLOBALS()
+
+          • Running the code would result in so many items, some of which are Python's pre-built variables that will come in handy when working with classes and packages.
+          • However, Jupyter Notebooks also employ various variables to manage its data.
+          • Python has a lot of background processes going on, and the scope of variables available in a specific line of code is what determines which variables can be accessed.
+
+      GLOBAL AND LOCAL SCOPE 
+
+          • The plan is to create two functions: function one with variables A and B, and function two with variables C and B. Both functions will print out their local variables.
+          • We will call function one with arguments 1 and 2, and function two with arguments 3 and 4.
+          • Each function has its own local variable scope and access to any variables in the global scope.
+          • However, they can't access each other's data.
+          • We can declare a function within another function, as we did with the inner function in function one.
+          • This inner function can only be called within function one. If there is an attempt to call it outside of function one, a syntax error is received.
+          • When the local variables in function one are printed, the inner function is defined as a variable
+
+  FUNCTIONS AS VARIABLES
+
+      VARIABLES AS FUNCTIONS
+
+          • Variables and functions both have names and data associated with them.
+          • However, for functions, this data includes information about required parameters and the lines of instruction to be executed.
+          • In Python, a function is represented as an object.
+
+     VIEWING FUNCTIO WITH DATA _CODE_
+
+          • The "code" attribute of Python function objects can be used to confirm that functions are just variables in Python.
+          • Print the variable names and the byte object of all the lines of instruction in a function using this attribute.
+
+     TEXT PROCESSING IN PYTHON
+
+          • There are two text processing operations, and a function that can make the text lowercase, remove punctuation, new lines, and words that are three characters or less.
+          • It can also remove long words.
+
+     LAMBDA FUNCTIONS 
+
+          • These are a way to represent a function without giving it a variable name.
+          • Just like how an expression like 5 or 2 + 3 can be written without assigning it to a variable, a small function can be defined using the lambda keyword. 
+          • Lambda functions can come in handy when you need to pass a function as an argument to another Python function, such as the sorted function that sorts a list of values.
+          • Lambda functions are concise and convenient for writing small functions that you need while writing code.
+
+ DAY 2
+
+
+
+
+
+
+
+
+
+      
+          
+
+
+
       
      
      
