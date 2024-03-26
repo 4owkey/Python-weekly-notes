@@ -5,113 +5,113 @@ WEEK 1
    PYTHON INTRODUCTION
 		
      • Python is a highly popular dynamic programming language uswd by numerous large organisations, such as Google, Yahoo and IBM.
-	   • It is compatible with all major operating systems and often comes pre-installed on Macs, as well as most Linux and Unix-based systems.
+     • It is compatible with all major operating systems and often comes pre-installed on Macs, as well as most Linux and Unix-based systems.
 
    WHY IT'S POPULAR
 
-	   • Due to it's intuitive syntax.
-	   • It's easy to use. 
-	   • Similar to other programming languages.
-	   • It's an excellent gateway language it's easy to transfer your python skiplls to other languages you might program with in the future.
-	   • Having prior programming knowledge is also beneficial. 
+     • Due to it's intuitive syntax.
+     • It's easy to use. 
+     • Similar to other programming languages.
+     • It's an excellent gateway language it's easy to transfer your python skiplls to other languages you might program with in the future.
+     • Having prior programming knowledge is also beneficial. 
 
    VARIABLES AND DATA TYPES
 
-	   • The basic unit of a program is called a variable, which is assigned a value.
-	   • An equal sign is an assignment operator.
-	   • If a variable name begins with a number, it cannot be used, but a variable name can include upper and lower case letters, as well as underscores.
-	   • Variable names traditionally begin with lowercase letters in python.
+     • The basic unit of a program is called a variable, which is assigned a value.
+     • An equal sign is an assignment operator.
+     • If a variable name begins with a number, it cannot be used, but a variable name can include upper and lower case letters, as well as underscores.
+     • Variable names traditionally begin with lowercase letters in python.
 
    TYPES OF VARIABLES
 
-	   • Integers -> Whole numbers. 
-	   • Floats   -> Decimal numbers.
-	   • Strings  -> Collections of characters.
-	   • Booleans -> True or False value. 
-	   • Complex numbers  -> Complex maths calculations. 
+     • Integers -> Whole numbers. 
+     • Floats   -> Decimal numbers.
+     • Strings  -> Collections of characters.
+     • Booleans -> True or False value. 
+     • Complex numbers  -> Complex maths calculations. 
      • When working with strings, the plus sign is used to concatenate them. 
 
    DATA STRUCTURES
     	   
-	   • In Python data structres allow for the storage of a list of values in a single variable.
+     • In Python data structres allow for the storage of a list of values in a single variable.
      • The first data structure we learn about is a list, which can contain any data type, including a list within a list.
-	   • A set is similar to a list, except it only contains unique elements and is declared using curly braces.
+     • A set is similar to a list, except it only contains unique elements and is declared using curly braces.
      • The order of elements in a set is not important, unlike in a list.
-	   • Tuples are similar to lists, except they cannot be modified once declared. 
+     • Tuples are similar to lists, except they cannot be modified once declared. 
      • They are useful when you need to store large amounts of data more efficiently in memory, like XY coordinate pairs.
-	   • A dictionary is a collection of key-value pairs, similar to a word and its definition in a book. 
+     • A dictionary is a collection of key-value pairs, similar to a word and its definition in a book. 
      • Dictionaries are declared using curly braces and accessed using keys.
 
    OPERATORS
 
      • Operators are instructions that perfom operations on variables and valves in Python. 
-	   • They are used manipulate and perfom actions on data.
+     • They are used manipulate and perfom actions on data.
      • Arithmetic operator -> Which is used for mathemacal calculations.
-	   • Example of operations, equal sign, addition, multiplication and exponent operator which raises a number to a specified power.
+     • Example of operations, equal sign, addition, multiplication and exponent operator which raises a number to a specified power.
      • Division can be performed using the foward slash operator,  and it returns a floating-point value, even if the result is a whole number.
-	   • The modules operator is specific to pragramming and provides the remainder after division. 
+     • The modules operator is specific to pragramming and provides the remainder after division. 
      • String can also be manipulated using operators. The addition operator can concatenate or combine two strings together, while the multiplication operator can repeat a          string a certain number of times.
      • Comparison operators evaluate two variables or values and produce a boolean result, either true or false.
-	   • Logical operators, such as "and", "or", and "not", operate on  boolean values. 
+     • Logical operators, such as "and", "or", and "not", operate on  boolean values. 
      • The "and" operator returns true only if both operands are true, while the "or" operator returns true if at least one operand is true.
-	   • The "not" operator negates the boolean value it operates on.
+     • The "not" operator negates the boolean value it operates on.
      • Membership operators, "in" and "not in", are used to check whether a value is present in a sequence or not. 
 
    CONTROL FLOW
        
      • The if statement is one of the three main types of control flow in programming,  and it allows you to execute a block of code only if a certain condition is met.
-	   • Indentation is very important and determines the structure if your program.
+     • Indentation is very important and determines the structure if your program.
      • You can a for loop to iterate over a list or any iterable object.
-	   • The item in the for loop is just a variable that represents the current item in the list, and you can name it anything you want.
+     • The item in the for loop is just a variable that represents the current item in the list, and you can name it anything you want.
      • A while loop is similar to a for loop, but it keeps looping until a certain condition is false.
-	   • It's important to make sure that the condition in the while loop will eventually become false, otherwise, the loop will continue indefinitely.
+     • It's important to make sure that the condition in the while loop will eventually become false, otherwise, the loop will continue indefinitely.
 
 Day 2 
 	   
    FUNCTIONS
        
      • A function is like a machine that takes inputs and produces outputs.
-	   • Functions can be defined using the "def" keyword followed by the function name and arguments in parentheses.
+     • Functions can be defined using the "def" keyword followed by the function name and arguments in parentheses.
      • The function body is indented and contains the code that performs the desired operation on the inputs, and the "return" keyword is used to specify the output.
-	   • Functions can take one or more arguments, and they may or may not return a value.
+     • Functions can take one or more arguments, and they may or may not return a value.
      • The print function is an example of a function that does not return anything, but rather prints output to the console.
-	   • The special python keyword "None" represents the absence of value, and it is the defualt return value for functions that do not explicitly return anything.
+     • The special python keyword "None" represents the absence of value, and it is the defualt return value for functions that do not explicitly return anything.
        
    CLASSES AND OBJECTS
 
      • A class in python, can help label and organise related collections of functions and attributes.
-	   • We can create a class called Dog, as it has multiple functions and attributes, such as legs, a name and bark.
+     • We can create a class called Dog, as it has multiple functions and attributes, such as legs, a name and bark.
      • When we define a class, we use an uppercase letter for the class name, and we start defining all the functions and attributes inside the class definition.
-	   • We usually begin by creating a special functon called the initialization function, or "init" function, which gets called every time an instance of the class is created.
+     • We usually begin by creating a special functon called the initialization function, or "init" function, which gets called every time an instance of the class is created.
      • The init function takes in a variable called "self", which refers to the specific instance of the dog class.
-	   • We can access any of the attributes or functions in the class using the "self" variable.
+     • We can access any of the attributes or functions in the class using the "self" variable.
 
    INTS AND FLOATS
 
-	   • Python automatically return a float to accomodate non-whole numbers. 
+     • Python automatically return a float to accomodate non-whole numbers. 
      • To convert a float number to an int number we can use an int class and its not a function.
-	   • Int is a built-in class in Python, along with other types like strings, floats and lists.
+     • Int is a built-in class in Python, along with other types like strings, floats and lists.
      • Python doesn't round when casting floats to ints, it merely removes the decimal part.
-	   • To round a float to the nearest int we can use the round function.
+     • To round a float to the nearest int we can use the round function.
      • Pitfall of floats is that they are approximations, which can result in rounding errors.
-	   • Using the round function can mitigate this issue.
+     • Using the round function can mitigate this issue.
 
    ALTERNATIVE NUMBER TYPES
 
-	   • If you pass a number as a string, the int class will convert it to an integer.
+     • If you pass a number as a string, the int class will convert it to an integer.
      • If you pass a second argument as a number, it will convert the first argument from that base to base 10.
-	   • The first argument must always be a string, even if you want to convert it from a different base.
+     • The first argument must always be a string, even if you want to convert it from a different base.
      • Floats have floating point errors that can be problematic in certain situations, such as when dealing with money.
-	   • To use the decimal module, you need to import the decimal class and the getcontext function at the top of your code.
+     • To use the decimal module, you need to import the decimal class and the getcontext function at the top of your code.
      • The getcontext function returns a context object that holds global settings for using the decimal class.
-	   • You can change these settings by modifying the attributes of the context object, such as the precision.
+     • You can change these settings by modifying the attributes of the context object, such as the precision.
      • With decimal class,  you can instantiate a decimal object with a number value.
 
    BOOLEANS
 
-	   • Python easily casts integers to booleans, -1 is true and 0 is false.
+     • Python easily casts integers to booleans, -1 is true and 0 is false.
      • Anything axcept 0 is true.
-	   • Empty string is false, but it should not have a space in there.
+     • Empty string is false, but it should not have a space in there.
      • Booleans are usually used in if statements or loops.
      • An empty list is false, but anything inside is true.
      • When python returns a non-value from a function, it is cast to false.
@@ -147,9 +147,11 @@ Day 3
      • Slicing can be used to extract a range of values from a list or string, and you can also add a third value to control the step size.
      • Range function can be used to generate longer lists, which can be also sliced.
      • If we want to insert an item at a specific position in the list, we can use the insert() method.
+     
      • 2 ways to remove items from a list.
        1. Remove() method - Which removes an item based on its value, not it's index.
-       2. Pop() method - Removes and returns the item at the end of the list. 
+       2. Pop() method - Removes and returns the item at the end of the list.
+       
      • We can also use a loop(for,while) with pop() to remove all items from the list.
      • When we assign a list to a variable, the variable stores a refernce to the list, not a copy of the list.
      • This means that if we modify the list through one variable, the cahnges will be reflected in other variables that reference the same list.
@@ -306,6 +308,9 @@ WEEK 2
    	  • Call the method in the traditional way, without passing in self, but it is also possible to call it with self included.
       	  • Classes have their own variable scope rules similar to functions.
 	  • If is not set to something else, it references the class variable self.<=gs. 
+          • However, the instance variable <=gs can also be modified by assigning a new value to MY(d)Og.<=gs. 
+
+      INSTANCE AND STATIC METHODS
 	  
 
      
