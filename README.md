@@ -316,6 +316,25 @@ WEEK 2
 	  • Static variables like replace puncs can also be added to control which punctuations get replaced.
    	  • Use either the class name or the class instance to refer to static variables, but cannot be done with instance methods.
           • By adding the @staticmethod decorator to the function definition, it explicitly states in Python that the function is a static method and should not have "self" passed in as an argument.
+
+   INHERITENCE
+
+       CLASS INHERITANCE
+
+          • It is possible for one class to inherit all the methods and attributes of another class.
+	  • The original class is referred to as the parent class, while the new class that extends it is known as the child class.
+   	  • This inheritance process happens automatically when the child class is created.
+          • Child instance class can then be created using all the methods and attributes of the parent class.
+	  • You can also add new methods to the child class.
+
+       EXTENDING BUILT-IN CLASSES
+
+          • We can also apply class extensions in Python's built-in classes.
+	  • In Python, creating a new list can be done by instantiating it as "list".
+          • Although it appears as a function, "list" is actually a class.
+
+
+   	
 	  
 
      
