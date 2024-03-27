@@ -332,10 +332,136 @@ WEEK 2
           • We can also apply class extensions in Python's built-in classes.
 	  • In Python, creating a new list can be done by instantiating it as "list".
           • Although it appears as a function, "list" is actually a class.
+	  • Although it appears as a function, "list" is actually a class. 
 
+DAY 3
 
-   	
-	  
+   HANDLIN ERRORS AND EXCEPTIONS
+
+     	  • When working with Python, notice that sometimes these problems are referred to as errors, while other times are called exceptions.
+	  • If official Python documentation is consulted, you will find that exceptions are determined during runtime and can be retried, whereas errors cannot be retried.
+          • Here is a controversial opinion: errors and exceptions are basically the same thing.
+	  • All Python errors and exceptions ultimately stem from a class called the base exception
+          • For instance, the division by zero error is a type of arithmetic error, which is a type of exception, which in turn extends the base exception class.
+	  • The base exception class provides useful and powerful properties to exceptions, such as halting code execution and providing information about why and how the execution was halted. 
+          • This entire traceback is known as a stack trace.
+	  • If you envision these nested calls as a stack of operations, the stack trace provides a trail through the stack that aids in debugging our program.
+   	  • We can catch an exception using a try / except statement and obtain an instance of the raised exception.
+
+      TRY/EXCEPT
+
+          • Exceptions when used and handled correctly are almost like a secondary layer of code underlying all the existing and more obvious code.
+
+   MANAGING AND HANDLING EXCEPTIONS
+   
+	  • There are a few interesting things you can do with this Try / Except pattern.
+   	  • For instance, if we do not care about getting the specific instance of the exception, and just want to print something, we do not have to have the as e in order to catch an exception.
+      	  • There was some sort of error and then that just prints out.
+
+      FINALLY
+      
+	  • Another useful tool is the finally statement.
+   	  • If you take the Try / Except block and add a finally to it, this will always execute and gets printed out. 
+      	  • Finally statements can be useful because they will always execute no matter what happens inside this try block.
+	  • You do not even need any except statements! This error is thrown, but still printed out.
+          • Even if no exception is raised at all, that still executes.
+	  • Often this is used when timing how long a function takes to execute.
+   	  • So if we import the time class, import time, this can be used to actually time our function. 
+          • Another fun thing to do with this is time.sleep. And time.sleep just pauses execution for a number of seconds. In this case, pause it for half a second.
+
+      CATCHING EXCEPTIONS BY TYPE
+   
+	  • Notice that you are always catching this exception class.
+          • You could add another except statement above this and chain these together just fine. 
+	  • The order of these except statements does matter here and Python will try the first one.
+          • If you move the general exception up, this is the class from which all of these extend, there was some sort of error. 
+
+      CUSTOM DECORATORS
+      
+	  • def handleException(func):
+	     def wrapper(*args):
+	        try:
+	            func(*args)
+	        except TypeError:
+	            print('There was a type error!')
+	        except ZeroDivisionError:
+	            print('There was a zero division error')
+	        except Exception:
+	            print('There was some sort of error!')
+	    
+	     return wrapper
+	
+	    @handleException
+	    def causeError():
+	     return 1/0
+	
+	    causeError()
+
+     	output ->  There was a zero division error
+
+   	  • We are going to pass as an argument, a function, and then define an inner function called wrapper.
+      	  • Try to execute this function that was passed in and then paste the exceptions here. Now return this wrapper function. 
+	  • Make a decorator handleException and put it on a causeError function.
+          • This is just going to return one over zero. 
+	  • If we call causeError, this handle exception was used to accept those various exceptions that this could throw.
+
+      RAISING EXCEPTIONS
+
+          • Let's talk about raising exceptions.
+	  • Use the handle exception decorator.
+   	  • Make a  function called raiseError raise Exception.
+      	  • This raise statement raises or throws this new exception that was created when it is reached. 
+	 
+	  •     @handleException
+		def raiseError(n):
+		    if n == 0:
+		        raise Exception()
+		    print(n)
+		
+		raiseError(1)
+  
+              OUTPUT -> 1
+	      
+   	  • Notice that an else statement is not used.
+      	  • This is not needed because once the exception is raised, this execution will halt, and throw this exception and then the print n will never be reached.
+	  • Notice in the handleException function, this is the function that gets passed in, this raiseErrors being passed in, but when we call it, there are no arguments even though our function has an argument.
+
+   WORKING WITH CUSTOM EXCEPTIONS
+   
+          • Class CustomException extends Exception:pass.
+	  • The pass statement is used because we literally do not need to define anything for our new CustomException class
+          • It inherits the constructor of the Exception class that it is extending.
+	  • Custom exceptions are usually lightweight classes with very little in the way of special attributes and methods and things, but might have some attributes that are useful for organizing and presenting information to the user about the error.
+
+Day 4
+
+   FUNDAMENTALS OF THREADS AND PROCESSES
+      
+          • Computers have both memory and file storage.
+	  • It is like short-term and long-term memory.
+   	  • When we save a file and load to file from the disc, that is in storage i.e. long-term memory.
+          • When we declare a variable in our program, that is short-term memory in the processor.
+	  • They both have access to the same long-term storage on the physical machine, but if this program writes something to memory, the second program cannot access it. 
+          • The operating system is responsible for allocating memory to each process running on the computer.
+	  • It puts walls between the processes so they cannot access each other's memory.
+          • Memory is not one giant vague blob like implied. It is segmented. Access is controlled by the operating system. 
+   	  • We still get to run them in parallel, at the same time, but instead of separate processes, they are run with separate threads. 
+	  • A process can have multiple threads and execute code at the same time in parallel.
+
+   MULTITHREADING
+   
+   	  • On VS code.
+
+   MULTIPROCESSING
+   
+          • How do we write a program to start, stop, and manage these for us? Well, conveniently, there is a module that is very similar to the threading module we used previously.
+	  • That module is called multiprocessing. 
+
+   OPENING, READING AND WRITING
+   
+          •
+	  •
+          •
 
      
 
