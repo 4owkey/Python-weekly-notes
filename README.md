@@ -457,12 +457,70 @@ Day 4
           • How do we write a program to start, stop, and manage these for us? Well, conveniently, there is a module that is very similar to the threading module we used previously.
 	  • That module is called multiprocessing. 
 
-   OPENING, READING AND WRITING
-   
-          •
-	  •
-          •
+Day 5
 
+   OPENING, READING AND WRITING
+
+      READING FILES
+   
+          • Watching output being printed to the screen is all well and great, but often as programmers, we are asked to produce something real, something tangible, usually for those management types that want to see a physical file they can attach to email or open in Excel or whatever it is they do with files.
+	  • Sometimes they give you files and they want your program to read them.
+          • We are working a little more directly with the operating system and so there are some things that you need to manage.
+	  • And one of those things is whether we are simply reading the contents of the file or whether we intend to make changes to it. 
+   	  • This is because it causes problems if two applications are making changes to the same file at the same time.
+          • The operating system needs to know who's doing what.
+	  • You can use the open function and pass in the name of a file.
+
+     WRITING FILES
+   
+   	  • We're going to open this file in the read mode and if we print f at this point, we get a file object.
+      	  • And there are a couple of ways to get the actual text inside the file. And the first is readline, so f.readline. This reads the lines of the file one at a time. 
+	  • When you run it again, you get a different line each time. So this file object contains some sort of bookmark of which lines of the file are already read. 
+	  • You could put f.readline inside of a loop and get all the lines of the file, but there is an easier way to get all the lines of the file, and that is readlines, plural.
+   	  • This gets all of the lines of the file that have not been read already and puts them into a list of strings.
+      	  • We can print out the contents of this file fairly nicely if we do something like this, for line in f.readlines, print line. 
+	  • Notice that these lines are all double-spaced and that is because each line of the file has a new line character on it on the end there, and this print statement also includes its own new line.
+          • We can fix this by stripping out any leading or trailing white space, including new lines, and we do that with the strip function on each line. Beautiful, and that is better than ugly. 
+
+     APPENDING FILES
+     
+	  • Let's look at writing files. We are going to do something similar to this but instead of an R, use a W for write. 
+   	  • We are also going to call this output.txt, which does not exist yet, but when we run this, it will create the file for us which is a pretty nice feature. 
+
+ CSV
+
+     READING
+     
+      	  • Notice that this did not quite parse correctly, and that is because this is not the traditional comma-delimited, comma-separated value that you are used to seeing.
+	  • The CSV file actually contains tab-separated values. So all of these are tabs.
+          • We can fix this output by taking the spac slash T and passing it in as a delimiter argument, backslash T right there.
+	  • But if you have something other than a comma, you need to put in that delimiter specifically. 
+          • You can also see that the first row that gets printed out here is the header. And if you want to skip the header, the CSV reader also has a neat function you can use called next
+	  • If we say list CSV reader, we do not have to call next, we can just use the list slicing syntax like that and that will also skip over the header.
+     
+     FILTERING DATA
+     
+   	  • ON VS CODE.
+
+     JSON
+
+     	  • Something to keep in mind, JSON is not Python.
+	  • This JSON-formatted string looks a lot like a Python dictionary, but it's not. It's a string.
+   	  • This is a string that just happens to be in the JSON format and in order to turn it into a dictionary, we need to import the JSON module at the top of our notebook, import json, and then use a method called json.loads and pass in the string, jsonString. 
+          • Notice that this is called loads plural and not load singular.
+	  • You can copy this Python dictionary and add a trailing comma, and that is just fine, but if you add a trailing comma to this JSON string, we get a JSON decode error.
+
+      DUMPING JSON
+      
+          • Notice that this is dumps plural.
+	  • You usually would not add any exception handling in this case because if you have a valid Python dictionary, there is not a lot that could go wrong when you are formatting it as a JSON string. 
+   	  • However, there is one exception to this rule where an exception could be thrown.
+
+      CUSTOM JSON DECODERS
+      
+      	  • ON VS CODE
+	  
+	  
      
 
 
