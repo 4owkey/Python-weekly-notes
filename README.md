@@ -1,3 +1,5 @@
+# Python-week-1
+
 WEEK 1
 
  Day 1
@@ -203,7 +205,8 @@ Day 5
      • You can use dictionary comprehensions to create a new dictionary from iterable structure, much like list comprehensions create a new list.
      
      
-
+     
+     
 # Python-week-2
 
 WEEK 2
@@ -519,8 +522,61 @@ Day 5
       CUSTOM JSON DECODERS
       
       	  • ON VS CODE
-	  
-	  
+
+  # Python-week-3
+
+  Day 1
+	
+	    • Starting with user stories, which depict small scenarios from a user's perspective, these stories should emphasize the user's goal and motivation rather than the application itself.
+	    • User stories are brief, simple, and informal, perfect for jotting down on index cards. They typically follow the format "As a [user/role], I want [goal] so that [reason/benefit]".
+	    • They typically follow the format "As a [user/role], I want [goal] so that [reason/benefit]".
+	    • It's essential to avoid overloading the application with every possible feature right from the start.
+	    • The initial scope should be kept manageable, while ideas for additional features can be maintained separately in a backlog.
+
+ 	USE CASES
+  
+	    • Use cases typically include a title, an actor (a user or system), and a scenario that describes how a goal is achieved.
+	    • The scenario can be written as a paragraph or a list of steps in simple language.
+	    • While user stories and use cases may seem similar, they capture different information.
+	    • User stories focus on the who, what, and why of a task or goal, while use cases cover the who, what, and how of achieving that goal.
+	    • They complement each other rather than compete.
+     	    • Depending on the complexity of your project, you may choose to use user stories alone or combine them with use cases.
+	    • Besides user stories and use cases, it's helpful to write traditional requirements to formally capture the capabilities and limitations of an application.
+            • Functional requirements describe what the application should or should not do and are written as sentences starting with "the application must" or "the application shall."
+	    • In addition to functional requirements, non-functional requirements describe how the application should accomplish its tasks.
+            • They focus on qualities like maintainability, reliability, and usability.
+	    • For example, the application should have a configurable GUI for the admin to interact with, be extensible for adding more content types, and be resilient to content errors.
+
+        ARCHITECTURE
+     
+     	    • Now that the requirements are captured, it's time to organize and structure the code for the application.
+	    • With Python being an object-oriented programming language, considering objects and classes is essential.
+
+     STUB CODE
+     
+            • It's time to start coding, and to provide a structure for the design, stub code has been created for the entire program using three Python modules: dd_content.py, dd_email.py, and dd_gui.py.
+	    • The dd_email.py module contains the skeleton for the daily digest email class, with placeholder methods using the pass statement.
+     	    • This allows the script to be executed without errors, even though it doesn't have any useful functionality yet.
+	    • The if name equals the main section at the bottom of the script can be used to add test code corresponding to the email class.
+            • Moving on to the dd_content module, a similar if name equals main section is included for test code.
+	    • Unlike the daily digest email module, the dd_content module does not define a daily digest content class.
+     	    • Instead, after consideration, it was decided that independent functions to retrieve random quotes, weather forecasts, Twitter trends, and Wikipedia articles would be more suitable.
+	    • These functions are included in the dd_content module, allowing easy expansion with additional content sources in the future.
+            • The dd_gui module handles the graphical user interface for the email digest administrator and utilizes the TKinter module.
+	    • To implement the "get_random_quote" function, the source of random quotes needs to be determined.
+     	    • While web scraping libraries like Beautiful Soup or Scrapy could be used, after exploring options, a decision is made to curate a personal list of inspirational quotes.
+	    • Storing the quotes and their authors can be done using different file formats like CSV, JSON, or XML.
+            • In this case, the CSV format is chosen for simplicity, with each line containing the author and quote separated by a vertical pipe symbol.
+	    • The file loading code is wrapped in a try-except block to handle potential exceptions.
+     	    • The CSV file is opened, and a list of dictionaries is created using list comprehension, where each dictionary represents an author and their quote.
+	    •
+            •
+	    •
+     	    •
+	    •
+            •
+	    •
+		  
      
 
 
