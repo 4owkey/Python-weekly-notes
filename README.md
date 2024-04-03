@@ -569,13 +569,21 @@ Day 5
             • In this case, the CSV format is chosen for simplicity, with each line containing the author and quote separated by a vertical pipe symbol.
 	    • The file loading code is wrapped in a try-except block to handle potential exceptions.
      	    • The CSV file is opened, and a list of dictionaries is created using list comprehension, where each dictionary represents an author and their quote.
-	    •
-            •
-	    •
+
+     WEATHER FORECASTING WITH OPENWEATHERMAP
+     
+	    • Since the weather forecast data needs to be current, we can't store it in a local CSV file like we did for the quotes.
+            • Instead, we will need to fetch the weather information from the internet.
+	    • One option is to use a Python web-scraping library to extract forecast information from a website like weather.com.
+     	    • Another option is to search the Python Package Index for a Python library that can retrieve weather data from an online source.
+	    • Alternatively, we can find an online source of weather information that provides an API we can directly call from our program.
+            • In the beginning of the dd_content script, you should have imported three new modules: the request module from the urllib package to open the API's URL, the JSON module to parse the response, and the datetime module to format and store the timestamp for each forecast period.
+	    • Moving down to line 25, there is a function called get_weather_forecast that includes an optional parameter named coords, which is a dictionary holding the desired latitude and longitude.
      	    •
 	    •
             •
 	    •
+            •
 		  
      
 
