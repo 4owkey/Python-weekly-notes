@@ -613,12 +613,8 @@ Day 5
 	    • The GUI module, called "dd GUI," consists of 250 lines.
             • Focus on key design decisions, and find the complete code in the exercise files for more detailed exploration. 
 	    • CHECK MORE INFO ON VSCODE
-     	    •
-	    •
-            •
-	    •
-            •
-	    •
+
+
      
 		  
      
