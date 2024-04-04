@@ -579,11 +579,47 @@ Day 5
 	    • Alternatively, we can find an online source of weather information that provides an API we can directly call from our program.
             • In the beginning of the dd_content script, you should have imported three new modules: the request module from the urllib package to open the API's URL, the JSON module to parse the response, and the datetime module to format and store the timestamp for each forecast period.
 	    • Moving down to line 25, there is a function called get_weather_forecast that includes an optional parameter named coords, which is a dictionary holding the desired latitude and longitude.
+
+     WRITING AND FORMTING EMAIL MESSAGES
+     
+     	    • Before we can send an email, we need something to send, so the next method we'll tackle is the format message.
+	    • Initially, when planning the class requirements, there was a method called format message that was meant to format various content into the email's message body.
+            • There are multiple ways to format an email, including plaintext or HTML.
+	    • In the init constructor method, an instance variable is initialized as a dictionary to store the four types of content, each with a Boolean flag indicating if it should be included. 
+
+     SENDING AN EMAIL
+     
+            • Luckily, Python has a convenient library called 'email' in its standard package, which helps manage email messages. 
+	    • The core of this module revolves around a class known as "Email Message."
+     	    • It is the main tool used to put together different components of the daily digest email, like the subject line, recipient list, and, of course, the message content.
+	    • In other Python modules like SMTP-Lib, you can find the same functionality.
+     	    • This module lets you create a client session to send emails through an SMTP server.
+	    • Let's see how the send email function works. Firstly, we imported two new modules: 
+            • SMTP-Lib, which helps us connect to the outlook server, and the email message class from the email.message module.
+	    • To store the email address and account password for sending the digest, we created a dictionary.
+     	    • Moving on, the send email function begins by creating a new email message object. 
+
+    TASK SCHEDULING
+    
+	    • ON VS CODE
+
+     GUI DESIGN PLANNING
+     
+            • Normally, leave GUI development until the end of a project.
+	    • This way, you can ensure that the necessary foundation of the application is built first before creating a visually impressive GUI that would not be of much use without the underlying functionality.
+     	    • Either sketch ideas on a piece of paper or play around with shapes on PowerPoint slides.
+ 
+     EXPLORING PYTHON TKINTER GUI
+	    • The GUI module, called "dd GUI," consists of 250 lines.
+            • Focus on key design decisions, and find the complete code in the exercise files for more detailed exploration. 
+	    • CHECK MORE INFO ON VSCODE
      	    •
 	    •
             •
 	    •
             •
+	    •
+     
 		  
      
 
