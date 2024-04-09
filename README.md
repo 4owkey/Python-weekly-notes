@@ -615,7 +615,7 @@ Day 5
 	    • CHECK MORE INFO ON VSCODE
 
 
-#Data-Analysis-weekly-notes
+# Data Analysis
 
 WEEK 1
 
