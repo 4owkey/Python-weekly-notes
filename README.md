@@ -743,7 +743,8 @@ WEEK 1
 
      - The character data type limits data entry to only valid characters.
      - Characters can include the alphabet that you might see on your keyboard, as well as numbers. 
-     - Alphanumeric is the most widely used data type for storing character-based data
+     - Alphanumeric is the most widely used data type for storing character-based data.
+     - As the name implies, alphanumeric is appropriate when a data element consists of both numbers and letters.
 
     
     
