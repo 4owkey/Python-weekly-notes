@@ -714,6 +714,37 @@ WEEK 1
      - Software helps analysts work through each one of the phases of the analytics process.
      - These tools automate much of the heavy lifting of data analysis, improving the analyst's ability to acquire, clean, manipulate, visualize, and analyze data. 
 
+
+   EXPLORING DATA TYPES
+
+     - To understand data types, it is best first to understand data elements.
+     - A data element is an attribute about a person, place, or thing containing data within a range of values.
+     - Data elements also describe characteristics of activities, including orders, transactions, and events.
+     - A data type limits the values a data element can have.
+
+   TABULAR DATA
+
+     - Tabular data is data organized into a table, made up of columns and rows.
+     - A table represents information about a single topic.
+     - Each column represents a uniquely named field within a table, also called a variable, about a single characteristic.
+     - The contents of each column contain values for the data element as defined by the column header.
+     - Spreadsheets, including Microsoft Excel, Google Sheets, and Apple Numbers, are practical tools for representing tabular data.
+     - A relational database management system (RDMS), commonly called a database, extends the tabular model.
+     - Instead of having all data in a single table, a database organizes related data across multiple tables.
+     - The connection between tables is known as a relationship.
+     - Oracle, Microsoft SQL Server, MySQL, and PostgreSQL are examples of database software.
+
+  STRUCTURED DATA TYPES
+
+     - Structured data is tabular in nature and organized into rows and columns.
+     - In a spreadsheet, cells are where columns and rows intersect.
+  
+  CHARACTER
+
+     - The character data type limits data entry to only valid characters.
+     - Characters can include the alphabet that you might see on your keyboard, as well as numbers. 
+     - Alphanumeric is the most widely used data type for storing character-based data
+
     
     
 
