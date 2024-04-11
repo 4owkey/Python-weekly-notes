@@ -746,6 +746,106 @@ WEEK 1
      - Alphanumeric is the most widely used data type for storing character-based data.
      - As the name implies, alphanumeric is appropriate when a data element consists of both numbers and letters.
 
+  CATEGORIES OF DATA
+
+     - Semi-structured data represents the space between structured spreadsheets and unstructured videos.
+
+   QUANTITATIVE VS QUALITATIVE DATA
+
+     - Regardless of structure, data is either quantitative or qualitative.
+     - Quantitative data consists of numeric values. 
+     - Data elements whose values come from counting or measuring are quantitative.
+     - Qualitative data consists of frequent text values.
+
+   DESCRETE VS CONTINUOUS DATA
+
+     - Numeric data comes in two different forms: discrete and continuous.
+     - A helpful way to think about discrete data is that it represents measurements that can't be subdivided.
+     - Another way to think about it is that discrete data is useful when you have things you want to count. 
+     - When you measure things like height and weight, you are collecting continuous data.
+     - While whole numbers represent discrete data, continuous data typically need a decimal point.
+
+   CATEGORICAL DATA
+
+     - In addition to quantitative, numeric data, there is categorical data.
+     - Text data with a known, finite number of categories is categorical.
+     - When considering an individual data element, it is possible to determine whether or not it is categorical.
+     - Animal Type is a good example of categorical data. 
+
+   DIMENSIONAL DATA
+
+     - Dimensional modeling is an approach to arranging data to facilitate analysis. 
+     - Dimensional modeling organizes data into fact tables and dimension tables. Fact tables store measurement data that is of interest to a business. 
+     - Dimensions are tables that contain data about the fact.
+
+   COMMON DATA STRUCTURES
+
+      - In order to facilitate analysis, data needs to be stored in a consistent, organized manner.
+      - When considering structured data, several concepts and standards inform how to organize data.
+      - Unstructured data has a wider variety of storage approaches.
+      - Improved integration and interoperability between tools make it easier for analysts to be productive.
+
+   STRUCTURED DATA
+
+      - Tabular data is structured data, with values stored in a consistent, defined manner, organized into columns and rows.
+      - Data is consistent when all entries in a column contain the same type of value.
+      - Structured data also makes summarization easy, since you can compute the average height for each animal in Table 2.1.
+      - It is common to perform summarization across groups.
+      - It is a best practice to specify a key that uniquely identifies all values for a given row.
+
+   UNSTRUCTURED DATA
+
+      - Unstructured data is qualitative, describing the characteristics of an event or an object.
+      - Images, phrases, audio or video recordings, and descriptive text are all examples of unstructured data.
+      - This data is unstructured and can identify machine-to-machine interaction. 
+      - Machine data is a common source of unstructured data.
+      - Machine data has various sources, including Internet of Things devices, smartphones, tablets, personal computers, and servers.
+      - Object storage facilitates the storage of unstructured data.
+      - The key-value concept underpins the design of object storage.
+      - The key is a unique identifier, and the value is the unstructured data itself. 
+
+   SEMI-STRUCTURED DATA
+
+      - Semi-structured data is data that has structure and that is not tabular. 
+      - Email is a well-known example of semi-structured data.
+      - Every email message has structural components, including recipient, sender, subject, date, and time.
+      - he need to make semi-structured data easier to work with has led to the emergence of semi-structured formatting options. 
+      - These formatting options use separators or tags to provide some context around a data element.
+
+   COMMON FILE FORMATS
+
+      - These formatting options use separators or tags to provide some context around a data element.
+
+      TEXT FILES
+
+      - One of the reasons text files are so widely adopted is their ability to be opened regardless of platform or operating system without needing a proprietary piece of software.
+      - Text files are also commonly referred to as flat files.
+      - A unique character known as a delimiter facilitates transmitting structured data via a text file.
+      - The delimiter is the character that separates individual fields.
+      - When a file is comma-delimited, it is known as a comma-separated values (CSV) file.
+      - Similarly, when a file is tab-delimited, it is called a tab-separated values (TSV) file.
+
+      FIXED-WIDTH FILES
+
+      - Fixed-width files are more laborious to create since they require a few extra steps. 
+
+      JAVASCRIPT OBJECT NOTATION
+
+      - JavaScript Object Notation (JSON) is an open standard file format, designed to add structure to a text file without incurring significant overhead.
+      - One of its design principles is that JSON is easily readable by people and easily parsed by modern programming languages.
+      - Languages such as Python, R, and Go have libraries containing functions that facilitate reading and writing JSON files.
+
+      XML
+
+      - Extensible Markup Language (XML) is a markup language that facilitates structuring data in a text file.
+      - While conceptually similar to JSON, XML incurs more overhead because it makes extensive use of tags.
+      - While these tags help readability, they add a significant amount of overhead.
+      - In 1999, XML was the data format of choice and facilitated Asynchronous JavaScript and XML (Ajax) web development techniques.
+      - With JSON as a lighter-weight alternative to XML, it is becoming increasingly popular when interacting asynchronously between a web browser and a remote server.
+
+      HTML
+   
+
     
     
 
