@@ -785,6 +785,7 @@ WEEK 1
       - Unstructured data has a wider variety of storage approaches.
       - Improved integration and interoperability between tools make it easier for analysts to be productive.
 
+Day 2
    STRUCTURED DATA
 
       - Tabular data is structured data, with values stored in a consistent, defined manner, organized into columns and rows.
@@ -843,7 +844,33 @@ WEEK 1
       - In 1999, XML was the data format of choice and facilitated Asynchronous JavaScript and XML (Ajax) web development techniques.
       - With JSON as a lighter-weight alternative to XML, it is becoming increasingly popular when interacting asynchronously between a web browser and a remote server.
 
-      HTML
+week 2
+
+  Day 1
+
+    DATABASE USE CASES
+
+      - Databases tend to support two major categories of data processing: Online Transactional Processing (OLTP) and Online Analytical Processing (OLAP).
+
+      OLTP
+
+      - OLTP systems handle the transactions we encounter every day.
+      - OLTP systems balance the ability to write and read data efficiently.
+
+      NORMALIZATION
+
+      - Normalization is a process for structuring a database in a way that minimizes duplication of data.
+      - One of the principles is that a given piece of data is stored once and only once.
+      - As a result, a normalized database is ideal for processing transactions.
+      - First normal form (1NF) is when every row in a table is unique and every column contains a unique value. 
+      - Second normal form (2NF) starts where 1NF leaves off.
+      - In addition to each row being unique, 2NF applies an additional rule stating that all nonprimary key values must depend on the entire primary key.
+      - Third normal form (3NF) builds upon 2NF by adding a rule stating all columns must depend on only the primary key.
+
+      OLAP
+
+      - OLAP systems focus on the ability of organizations to analyze data. 
+      - While OLAP and OLTP databases can both use relational database technology, their structures are fundamentally different.
    
 
     
