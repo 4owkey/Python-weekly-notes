@@ -871,6 +871,25 @@ week 2
 
       - OLAP systems focus on the ability of organizations to analyze data. 
       - While OLAP and OLTP databases can both use relational database technology, their structures are fundamentally different.
+      - OLTP databases need to balance transactional read and write performance, resulting in a highly normalized design.
+      - Typically, OLTP databases are in 3NF.
+      - On the other hand, databases that power OLAP systems have a denormalized design.
+      - Instead of having data distributed across multiple tables, denormalization results in wider tables than those found in an OLTP database.
+
+      SCHEMA CONCEPTS
+
+      - The design of a database schema depends on the purpose it serves.
+      - A data warehouse is a database that aggregates data from many transactional systems for analytical purposes.
+      - Transactional data may come from systems that power the human resources, sales, marketing, and product divisions.
+      - A data warehouse facilitates analytics across the entire company.
+      - A data mart is a subset of a data warehouse. 
+      - Data warehouses serve the entire organization, whereas data marts focus on the needs of a particular department within the organization.
+      - A data lake stores raw data in its native format instead of conforming to a relational database structure.
+      - Using a data lake is more complex than a data warehouse or data mart, as it requires additional knowledge about the raw data to make it analytically useful.
+      - Relational databases enforce a structure that encapsulates business rules and business logic, both of which are missing in a data lake.
+      - It is crucial to realize that the structure of a database schema impacts analytical efficiency, particularly as the volume of data grows.
+      - In addition to a schema's design, it is vital to consider the life cycle.
+      
    
 
     
