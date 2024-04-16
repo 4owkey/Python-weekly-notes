@@ -889,7 +889,156 @@ week 2
       - Relational databases enforce a structure that encapsulates business rules and business logic, both of which are missing in a data lake.
       - It is crucial to realize that the structure of a database schema impacts analytical efficiency, particularly as the volume of data grows.
       - In addition to a schema's design, it is vital to consider the life cycle.
+
+
+
+DAY 2
+
+  HANDLING DIMENSIONALITY
+
+      - There are multiple ways to design dimensions. 
+      - Another approach is to use an indicator flag for the current price. This approach requires another column
+      - The indicator flag method keeps all pricing data in a single place.
+
+  DATA ACQUISITION CONCEPTS
+
+      - To perform analytics, you need data.
+      - Data can come from internal systems you operate, or you can obtain it from third-party sources.
+
+   INTERGRATION
+
+      - Data from transactional systems flow into data warehouses and data marts for analysis.
+      - OLTP and OLAP databases have different internal structures.
+      - You need to retrieve, reshape, and insert data to move data between operational and analytical environments.
+      - One approach is known as extract, transform, and load (ETL). 
+      - Extract, load, and transform (ELT) is a variant of ETL.
+      - With ELT, data is extracted from a source database and loaded directly into the data warehouse.
+      - Once the extract and load phases are complete, the transformation phase gets underway.
+      - One key difference between ETL and ELT is the technical component performing the transformation.
+      - With ETL, the data transformation takes place external to a relational database, using a programming language like Python.
+      - ELT has an advantage in the speed with which data moves from the operational to the analytical database.
+
+  ETL VENDORS
+
+      - Whether you choose ETL or ELT for loading your data warehouse, you don't have to write transformations by hand.
+      - Many products support both ETL and ELT.
+      - Before you pick one, carefully evaluate the available free and paid options to determine the one that best fits your needs and system architecture goals.
+      - An initial load occurs the first time data is put into a data warehouse. 
+      - After that initial load, each additional load is a delta load, also known as an incremental load.
+      - A delta load only moves changes between systems.
+      - The frequency with which delta loads happen depends on business requirements.
+      - Depending on how fresh the data needs to be, delta loads can happen at any interval.
+      - When moving data between systems, you have to balance the speed and complexity of the overall operation.
+
+   DATA COLLECTION METHODS
+
+      - Augmenting data from your transactional systems with external data is an excellent way to improve the analytical capabilities of your organization.
+
+      API
+
+      - An application programming interface (API) is a structured method for computer systems to exchange information.
+      - APIs can be transactional, returning data as JSON objects.
+      - APIs can also facilitate bulk data extraction, returning CSV files.
+
+      WEB SERVICES 
       
+      - data is found in private and public data sources and is accessible via a web service.
+      - A web service is an API you can call via Hypertext Transfer Protocol (HTTP), the language of the World Wide Web.
+      - While a web service is an API, an API does not have to be a web service.
+      - If you imagine an API as the door behind which data treasures exist, an API key is what unlocks the door.
+      - API providers generate a unique API key for each calling application.
+      - Centralized creation and distribution of API keys allow the provider to understand who is using the API and to turn off individual keys' access in the event of abuse.
+
+      WEB SCRAPING
+
+      - Programmatic retrieval of data from a website is known as web scraping.
+      - You can use software bots to scrape data from a website.
+      - Many modern programming languages, including Python and R, make it easy to create a web scraper.
+      - Instead of using an API or a web service, a web scraper reads a web page similar to a browser, such as Chrome, Safari, or Edge.
+      - Your web scraper has to account for pagination to ensure that you are not leaving any data behind.
+
+      HUMAN-IN-THE-LOOP
+
+      - There are times when the data you seek exists only in people's minds.
+      - Even with all of these data sources, you may still want insight into how customers feel about the services you provide.
+
+      SURVEYS
+
+      - One way to collect data directly from your customers is by conducting a survey.
+      - The most simplistic surveys consist of one question and indicate customer satisfaction.
+      - Complex survey logic lets you gather additional details as to why a person has a particular opinion.
+      - You can design surveys to achieve your data collection goals and your audience.
+      - As you design a survey, you want to keep in mind how you will analyse the data you collect.
+
+      SURVEY TOOLS
+
+      - Instead of designing a custom application to collect survey data, several survey products let you design complex surveys without worrying about building a database.
+      - Qualtrics is a powerful tool for developing and administering surveys.
+
+      OBSERVATION
+
+      - Observation is the act of collecting primary source data, from either people or machines.
+      - Observational data can be qualitative or quantitative. 
+      - Collecting qualitative observational data leads to unstructured data challenges.
+
+      SAMPLING
+
+      - Imagine you are doing analytics in an Internet-of-Things environment, in which 800 billion events occur daily.
+      - Though it is possible, ingesting and storing 800 billion records is a challenging task.
+      - Manipulating 800 billion records takes a lot of computing power.
+
+      WORKING WITH DATA
+
+      - To turn a database design into an operational database ready to accept data, you use the Data Definition Language (DDL) components of SQL.
+      - DDL lets you create, modify, and delete tables and other associated database objects.
+      - To generate insights, a productive analyst must be comfortable using the Data Manipulation Language (DML) capabilities of SQL to insert, modify, and retrieve information from databases.
+      - While DDL manages the structure of a database, DML manages the data in the database.
+
+      DATA MANIPULATION
+
+      - When manipulating data, one of four possible actions occurs:
+        1. Create new data.
+        2. Read existing data.
+        3. Update existing data.
+        4. Delete existing data.
+      - SQL uses verbs to identify the type of activity a specific statement performs.
+      - SELECT, FROM, and WHERE are all reserved words that have specific meanings in SQL.
+      - The FROM clause in a query identifies the source of data, which is frequently a database table.
+      -Both the SELECT and FROM clauses are required for a SQL statement to return data
+
+      SQL CONSIDERATIONS
+
+      - The keywords in SQL are case-insensitive.
+      - However, the case-sensitivity of column names and values depend on the database configuration.
+      - Factors that influence convention include database configuration, query efficiency, and how easy it is for people to read and understand the query.
+
+      FILTERING
+
+      - Filtering is a way to reduce the data down to only the rows that you need.
+      - To filter data, you add a WHERE clause to a query. 
+
+      FILTERING AND LOGICAL OPERATORS
+
+      - You need to use a logical operator to account for complex filtering needs.
+      - The AND operator evaluates the Animal_Type and Weight filters together, only returning records that match both criteria.
+      - OR is another frequently used logical operator. 
+
+      SORTING
+
+      - The ORDER BY clause is the component of a SQL query that makes sorting possible.
+      - The ASC keyword at the end of the ORDER BY clause sorts in ascending order whereas using DESC with ORDER BY sorts in descending order.
+      - Both the ASC and DESC keywords work across various data types, including date, alphanumeric, and numeric.
+
+      DATE FUNCTIONS
+
+      - Storing date information about an event facilitates analysis across time.
+      - The most important thing to note is that you have to understand the database platform you are using and how that platform handles dates and times.
+
+      LOGICAL FUNCTIONS
+
+      - Logical functions can make data substitutions when retrieving data.
+      - Remember that a SELECT statement only retrieves data.
+
    
 
     
