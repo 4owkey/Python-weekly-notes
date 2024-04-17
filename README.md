@@ -934,13 +934,13 @@ DAY 2
 
       - Augmenting data from your transactional systems with external data is an excellent way to improve the analytical capabilities of your organization.
 
-      API
+   API
 
       - An application programming interface (API) is a structured method for computer systems to exchange information.
       - APIs can be transactional, returning data as JSON objects.
       - APIs can also facilitate bulk data extraction, returning CSV files.
 
-      WEB SERVICES 
+   WEB SERVICES 
       
       - data is found in private and public data sources and is accessible via a web service.
       - A web service is an API you can call via Hypertext Transfer Protocol (HTTP), the language of the World Wide Web.
@@ -949,7 +949,7 @@ DAY 2
       - API providers generate a unique API key for each calling application.
       - Centralized creation and distribution of API keys allow the provider to understand who is using the API and to turn off individual keys' access in the event of abuse.
 
-      WEB SCRAPING
+   WEB SCRAPING
 
       - Programmatic retrieval of data from a website is known as web scraping.
       - You can use software bots to scrape data from a website.
@@ -957,12 +957,12 @@ DAY 2
       - Instead of using an API or a web service, a web scraper reads a web page similar to a browser, such as Chrome, Safari, or Edge.
       - Your web scraper has to account for pagination to ensure that you are not leaving any data behind.
 
-      HUMAN-IN-THE-LOOP
+   HUMAN-IN-THE-LOOP
 
       - There are times when the data you seek exists only in people's minds.
       - Even with all of these data sources, you may still want insight into how customers feel about the services you provide.
 
-      SURVEYS
+   SURVEYS
 
       - One way to collect data directly from your customers is by conducting a survey.
       - The most simplistic surveys consist of one question and indicate customer satisfaction.
@@ -970,31 +970,31 @@ DAY 2
       - You can design surveys to achieve your data collection goals and your audience.
       - As you design a survey, you want to keep in mind how you will analyse the data you collect.
 
-      SURVEY TOOLS
+   SURVEY TOOLS
 
       - Instead of designing a custom application to collect survey data, several survey products let you design complex surveys without worrying about building a database.
       - Qualtrics is a powerful tool for developing and administering surveys.
 
-      OBSERVATION
+   OBSERVATION
 
       - Observation is the act of collecting primary source data, from either people or machines.
       - Observational data can be qualitative or quantitative. 
       - Collecting qualitative observational data leads to unstructured data challenges.
 
-      SAMPLING
+   SAMPLING
 
       - Imagine you are doing analytics in an Internet-of-Things environment, in which 800 billion events occur daily.
       - Though it is possible, ingesting and storing 800 billion records is a challenging task.
       - Manipulating 800 billion records takes a lot of computing power.
 
-      WORKING WITH DATA
+   WORKING WITH DATA
 
       - To turn a database design into an operational database ready to accept data, you use the Data Definition Language (DDL) components of SQL.
       - DDL lets you create, modify, and delete tables and other associated database objects.
       - To generate insights, a productive analyst must be comfortable using the Data Manipulation Language (DML) capabilities of SQL to insert, modify, and retrieve information from databases.
       - While DDL manages the structure of a database, DML manages the data in the database.
 
-      DATA MANIPULATION
+  DATA MANIPULATION
 
       - When manipulating data, one of four possible actions occurs:
         1. Create new data.
@@ -1006,39 +1006,126 @@ DAY 2
       - The FROM clause in a query identifies the source of data, which is frequently a database table.
       -Both the SELECT and FROM clauses are required for a SQL statement to return data
 
-      SQL CONSIDERATIONS
+   SQL CONSIDERATIONS
 
       - The keywords in SQL are case-insensitive.
       - However, the case-sensitivity of column names and values depend on the database configuration.
       - Factors that influence convention include database configuration, query efficiency, and how easy it is for people to read and understand the query.
 
-      FILTERING
+   FILTERING
 
       - Filtering is a way to reduce the data down to only the rows that you need.
       - To filter data, you add a WHERE clause to a query. 
 
-      FILTERING AND LOGICAL OPERATORS
+   FILTERING AND LOGICAL OPERATORS
 
       - You need to use a logical operator to account for complex filtering needs.
       - The AND operator evaluates the Animal_Type and Weight filters together, only returning records that match both criteria.
       - OR is another frequently used logical operator. 
 
-      SORTING
+   SORTING
 
       - The ORDER BY clause is the component of a SQL query that makes sorting possible.
       - The ASC keyword at the end of the ORDER BY clause sorts in ascending order whereas using DESC with ORDER BY sorts in descending order.
       - Both the ASC and DESC keywords work across various data types, including date, alphanumeric, and numeric.
 
-      DATE FUNCTIONS
+   DATE FUNCTIONS
 
       - Storing date information about an event facilitates analysis across time.
       - The most important thing to note is that you have to understand the database platform you are using and how that platform handles dates and times.
 
-      LOGICAL FUNCTIONS
+   LOGICAL FUNCTIONS
 
       - Logical functions can make data substitutions when retrieving data.
       - Remember that a SELECT statement only retrieves data.
+      - Another way to generate the output in Table 3.10 is by using the IFF logical function.
+      - When using logical functions, you need to balance their convenience with the knowledge that you are replacing data from the database with the function's coded values.
+      - The ability to do this type of substitution is a real asset when dividing data into categories.
 
+DAY 3
+
+   AGGREGATE FUNCTIONS
+
+      - Summarized data helps answer questions that executives have, and aggregate functions are an easy way to summarize data.
+      - Aggregate functions summarize a query's data and return a single value.
+      - You can also use aggregate functions to filter data.
+
+   SYTEM FUNCTIONS
+
+      - Each database platform offers functions that expose data about the database itself.
+      - One of the most frequently used system functions returns the current date.
+      - System functions also return data about the database environment.
+
+   QUERY OPTIMIZATION
+
+      PARAMETRIZATION
+
+      - Whenever a SQL query executes, the database has to parse the query.
+      - Parsing translates the human-readable SQL into code the database understands.
+      - Parsing takes time and impacts how long it takes for a query to return data.
+      - Effective use of parameterization reduces the number of times the database has to parse individual queries.
+
+      INDEXING 
+
+      - When retrieving data from a table, the database has to scan each row until it finds the ones that match the filters in the WHERE clause.
+      - The process of looking at each row is called a full table scan.
+      - For small tables, full table scans happen quickly. As data volumes increase, scanning the entire table takes a long time and is not efficient.
+      - To speed up query performance, you need a database index.
+      - A database index works like the index in the back of a book.
+
+      DATA SUBSETS AND TEMPORARY TABLES
+
+      - When dealing with large data volumes, you may want to work with a subset of records.
+      - It is possible to create a temporary table to make the data more manageable.
+      - Temporary tables can store the results of a query and are disposable.
+      - Temporary tables automatically get removed when the active session ends.
+
+      EXECUTION PLAN
+
+      - An execution plan shows the details of how a database runs a specific query.
+      - Execution plans are extremely helpful in troubleshooting query performance issues.
+      - They provide additional information about how a query is spending its time.
+      - Looking at execution plans is an integral part of developing efficient queries.
+
+   DATA QUALITY
+
+      DATA QUALITY CHALLENGES
+
+      DUPLICATE DATA
+
+      - Duplicate data occurs when data representing the same transaction is accidentally duplicated within a system.
+      - Humans are primarily responsible for creating duplicate data.
+      - System architects work diligently to prevent duplicate data from being created.
+      - Having multiple data sources for the same data elements is also a source of duplicate data.
+
+   REDUNDANT DATA
+
+      - While duplicate data typically comes from accidental data entry, redundant data happens when the same data elements exist in multiple places within a system.
+      - Frequently, data redundancy is a function of integrating multiple systems.
+      - The customer's address in the data warehouse depends on how the ETL jobs function.
+      - There are several options for resolving redundant data. 
+      - This integrated ETL process takes a delta load approach.
+      - The additional ETL logic ensures that the warehouse contains the correct values.
+      - Another root cause of data redundancy is an inappropriate database design.
+
+   MISSING VALUES
+
+      - Another issue that impacts data quality is the concept of missing values.
+      - Missing values occur when you expect an attribute to contain data but nothing is there.
+      - A null is not a space, blank, or other character.
+      - Null values present several challenges depending on the tools you use to analyze data.
+
+      INVALID DATA
+
+      - Invalid data are values outside the valid range for a given attribute.
+      - ext data is more complex. One thing that leads to invalid character data is an absence of referential integrity within a database. If two tables have a relationship but no foreign keys, the conditions for invalid character data exist. Implementing relationships appropriately reduces the likelihood of invalid character data. As you learned in Chapter 3, implementing referential integrity is an excellent way to improve data quality.
+
+      NONPARAMETIC DATA
+
+      - Nonparametric data is data collected from categorical variables, which you read about in Chapter 2: Understanding Data.
+      - 
+
+      
    
 
     
