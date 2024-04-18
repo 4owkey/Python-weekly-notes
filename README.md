@@ -1123,7 +1123,110 @@ DAY 3
       NONPARAMETIC DATA
 
       - Nonparametric data is data collected from categorical variables, which you read about in Chapter 2: Understanding Data.
-      - 
+      - Sometimes the categories indicate differentiation, and sometimes they have a rank order associated with them.
+
+      DATA OUTLIERS
+
+      - A data outlier is a value that differs significantly from other observations in a dataset.
+
+      SPECIFICATION MISMATCH
+
+      - A specification describes the target value for a component.
+      - A specification mismatch occurs when an individual component's characteristics are beyond the range of acceptable values.
+      - On the other hand, a specification mismatch occurs when data does not conform to its destination data type.
+
+      DATA TYPE VALIDATION
+
+      - Data type validation ensures that values in a dataset have a consistent data type.
+
+   DATA MANIPULATION TECHNIQUES
+
+     RECODING DATA
+
+     - Recoding data is a technique you can use to map original values for a variable into new values to facilitate analysis.
+     - Recoding groups data into multiple categories, creating a categorical variable.
+     - A categorical variable is either nominal or ordinal.
+     - Recoding is helpful when you have numeric data you want to analyze by category.
+     - Recoding maps the numeric value to the appropriate category.
+
+     DERIVED VARIABES
+
+     - A derived variable is a new variable resulting from a calculation on an existing variable.
+     - However, derived variables don't have to be categorical.
+
+     DATA MERGE
+
+     - A data merge uses a common variable to combine multiple datasets with different structures into a single dataset.
+     - Merging data improves data quality by adding new variables to your existing data.
+     - Additional variables make for a richer dataset, which positively impacts the quality of your analysis.
+     - ETL processes commonly append data while transforming data for use in analytical environments.
+
+     DATA BLENDING
+
+     - Data blending combines multiple sources of data into a single dataset at the reporting layer.
+     - While data blending is conceptually similar to the extract, transform, and load process in Chapter 3, there is a crucial difference. 
+
+     CONCATENATION
+
+     - Concatenation is the merging of separate variables into a single variable.
+     - Concatenation is a highly effective technique when dealing with a source system that stores components of a single variable in multiple columns.
+     - Concatenation is also useful when generating address information.
+
+     DATA APPEND 
+
+     - A data append combines multiple data sources with the same structure, resulting in a new dataset containing all the rows from the original datasets.
+
+     IMPUTATION
+
+     - Imputation is a technique for dealing with missing values by replacing them with substitutes.
+     - When merging multiple data sources, you may end up with a dataset with many nulls in a given column.
+
+     REDUCTION
+
+     - When dealing with big data, it is frequently unfeasible and inefficient to manipulate the entire dataset during analysis.
+     - Reduction is the process of shrinking an extensive dataset without negatively impacting its analytical value.
+
+     DIMENSION REDUCTION
+
+     - One reduction technique is dimensionality reduction, which removes attributes from a dataset.
+     - Removing attributes reduces the dataset's overall size.
+
+     NUMEROSITY REDUCTION
+
+     - Another technique is numerosity reduction, which reduces the overall volume of data.
+     - One way to reduce the volume of quantitative data is by creating a histogram.
+     - You can create a histogram in Python, R, and many visualization-specific tools.
+     - When creating a histogram, you can conFigure the width of a rectangle to represent a range of values.
+     - Whether you're dealing with one person or 10,000 people's data, histograms are great at reducing the number of data points you have to consider.
+     - Another approach to reducing the data is through sampling. 
+     - Sampling is a technique that selects a subset of individual records from the initial dataset.
+     - The most straightforward technique is a random sample and applies in many cases.
+
+
+   MANAGING DATA QUALITY
+
+   CIRCUMSTANCES TO CHECK FOR QUALITY
+
+     - Errors during data acquisition, transformation, manipulation, and visualization all contribute to degrading data quality.
+
+     AUTOMATED VALIDATION
+
+     - Many data sources feed analytics environments. While some of these data sources are other computer systems, others depend directly on people.
+     - Whether source data is machine- or human-generated, one way to prevent data entry mistakes from adversely impacting data quality is to automate data validation checks.
+     - Before automatically validating input data, you need to understand how source data fields map to their corresponding database columns.
+
+     DATA QUALITY DIMENSIONS
+
+     - Six dimensions to take into account when assessing data quality are accuracy, completeness, consistency, timeliness, uniqueness, and validity. 
+
+    DATA QUALITY RULES AND METRIS
+
+    - With an understanding of data quality dimensions, you need to consider how to measure each of them in your quest to improve overall quality. 
+
+    METHODS TO VALIDATE QUALITY
+
+    -
+   
 
       
    
