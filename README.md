@@ -1139,6 +1139,8 @@ DAY 3
 
       - Data type validation ensures that values in a dataset have a consistent data type.
 
+DAY 4
+
    DATA MANIPULATION TECHNIQUES
 
      RECODING DATA
@@ -1225,7 +1227,35 @@ DAY 3
 
     METHODS TO VALIDATE QUALITY
 
-    -
+    - Numerous methods are available for validating data quality.
+    - These methods range from whether or not your data passes reasonable expectations to statistical methods that look for irregular patterns within your data.
+    -  A sound approach to ensuring and improving data quality is by combining these methods appropriately.
+
+DATA ANALYSIS AND STATISTICS
+
+    FUNDAMENTALS OF STATISTICS
+
+    - One key concept is the definition of a population.
+    - A population represents all the data subjects you want to analyze.
+
+    COMMON SYMBOLS IN STATISTICS
+
+    - Statistics is all about exploring numbers and performing calculations.
+
+    DESCRIPTIVE STATISTICS
+
+    - Descriptive statistics is a branch of statistics that summarizes and describes data.
+    - As you explore a new dataset for the first time, you want to develop an initial understanding of the size and shape of the data. You use descriptive statistics as measures to help you understand the characteristics of your dataset.
+
+    MEASURES OF FREQUENCY
+
+    - Measures of frequency help you understand how often something happens.
+    - When encountering a dataset for the first time, you want to determine how much data you are working with to help guide your analysis.
+
+    COUNT
+
+    - The most straightforward way to understand how much data you're working with is to count the number of observations.
+    - 
    
 
       
