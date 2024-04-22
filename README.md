@@ -1255,7 +1255,134 @@ DATA ANALYSIS AND STATISTICS
     COUNT
 
     - The most straightforward way to understand how much data you're working with is to count the number of observations.
-    - 
+
+DAY 5
+
+  STATISTICS PACKAGES
+
+    IBM SPSS
+
+    - One of the most popular pieces of statistical software is IBM's SPSS package. SPSS is one of the oldest statistical software packages, first released in 1968, but it continues to be used today by many statisticians. Figure 6 shows an example of calculating the correlations between a set of variables using SPSS.
+
+    Stata
+    
+    - Stata is yet another statistical analysis package that dates back to the 1980s and continues to be updated today. It offers essentially the same features as SPSS and SAS and provides users with both a graphical interface and a command-line interface depending on their personal preference. Stata is less widely used than the more popular SAS and SPSS tools. Figure 8 shows an example of building and visualizing a linear regression model in Stata.
+
+    Minitab
+
+    - The final statistical software package covered on the Data+ exam is Minitab. And, once again, Minitab shares most of the same features as SPSS, SAS, and Stata but fits into the same category as Stata - an older tool that is not widely used today. 
+
+ Machine Learning
+
+    - Moving on from statistics-focused tools, the industry also makes use of a set of graphical tools designed to help analysts build machine learning models without requiring them to actually write the code to do so. These machine-learning tools aim to make machine-learning techniques more accessible. Analysts may still tune the parameters of their models but do not necessarily need to write scripts to do so.
+
+    IBM SPSS Modeler
+
+    - IBM's SPSS Modeler is one popular tool for building graphical machine learning models.
+    - Instead of requiring that users write code, it provides an intuitive interface where analysts can select the tasks that they would like the software to carry out and then connect them in a flowchart-style interface.
+    - Once the user is satisfied that they've designed the machine learning process, they then run the model and can visually explore the results.
+
+    RapidMiner
+
+    - RapidMiner is another graphical machine learning tool that works in a manner similar to IBM SPSS Modeler.
+    - It offers access to hundreds of different algorithms that may be placed in a visually designed machine-learning workflow. 
+    - RapidMiner also offers prebuilt analytic templates for common business scenarios.
+
+    Analytics Suites
+
+    - Today, most organizations choose to adopt an analytics suite that provides powerful capabilities that cross all phases of an analytics process.
+    - These tools allow analysts to ingest and clean data, perform exploratory statistical analysis, visualize their data, produce models, make predictions, and communicate and report their results.
+    - These packages are normally more expensive than the other tools we've discussed, but they also provide an end-to-end environment where all of an organization's analysts and developers may work together on analytics projects.
+
+    IBM Cognos
+
+    - IBM Cognos is an example of one of these integrated analytics suites.
+    - It uses a web-based platform to offer analysts within an organization access to their data and is backed by IBM's Watson artificial intelligence capability.
+    - The major components of Cognos include the following:
+    	- Cognos Connection is a web-based portal that offers access to other elements of the Cognos suite.
+     	- Query Studio provides access to data querying and basic reporting tools.
+      	- Report Studio offers advanced report design tools for complex reporting needs.
+        - Analysis Studio enables advanced modeling and analytics on large datasets.
+	- Event Studio provides real-time data monitoring and alerting, allowing business leaders to be immediately notified when certain events take place and/or provide automated responses to those events.
+ 	- Metric Studio offers the ability to create scorecards for business leaders to quickly analyze key metrics from across the organization.
+	- Cognos Viewer allows stakeholders to easily interact with data and analyses prepared using Cognos.
+
+    Microsoft Power BI
+
+    - Power BI is Microsoft's analytics suite built on the company's popular SQL Server database platform.
+    - Power BI is popular among organizations that make widespread use of other Microsoft software because of its easy integration with those packages and cost-effective bundling within an organization's Microsoft enterprise license agreement.
+    - The major components of Power BI include the following:
+      - Power BI Desktop is a Windows application for data analysts, allowing them to interact with data and publish reports for others.
+      - The Power BI service is Microsoft's software-as-a-service (SaaS) offering that hosts Power BI capabilities in the cloud for customers to access.
+      - Mobile apps for Power BI provide users of iOS, Android, and Windows devices with access to Power BI capabilities.
+      - Power BI Report Builder allows developers to create paginated reports that are designed for printing, email, and other distribution methods.
+      - Power BI Report Server offers organizations the ability to host their own Power BI environment on internal servers for stakeholders to access.
+
+    MicroStrategy
+
+    - MicroStrategy is an analytics suite that is less well-known than similar tools from IBM and Microsoft, but it does have a well-established user base.
+    - MicroStrategy offers many of the same tools as its counterparts, making it easy for users to build dashboards and reports and apply machine learning techniques to their business data.
+
+    Domo
+
+    - Domo is a software-as-a-service (SaaS) analytics platform that allows businesses to ingest their data and apply a variety of analytic and modeling capabilities.
+    - It is not a very widely used tool, but knowledge of it is included in the objectives for the Data+ exam.
+
+    Datorama
+
+    - Salesforce Datorama is an analytics tool that focuses on a specific component of an organization's business: sales and marketing.
+    - It's not a general-purpose analytics tool but is instead focused on applying machine learning, visualization, and other analytics techniques to the sales and marketing process.
+
+    AWS QuickSight
+
+    - AWS QuickSight is a dashboarding tool available as part of the Amazon Web Services cloud offering.
+    - This tool's power comes from the fact that it is available on a pay-as-you-go basis and its integration with the powerful data storage, data warehousing, machine learning, and artificial intelligence capabilities offered by the Amazon cloud.
+
+    Tableau
+
+    - Tableau is arguably the most popular data visualization tool available in the market today.
+    - The focus of this tool is on the easy ingestion of data from a wide variety of sources and powerful visualization capabilities that allow analysts and business leaders to quickly identify trends in their data and drill down into specific details.
+
+    Qlik
+
+    - Qlik is another popular SaaS analytics platform, offering access to cloud-based analytics capabilities. The major products offered by Qlik include the following:
+       - QlikView is the company's original analytics platform that focuses on providing rapid insights.
+       - Qlik Sense is a more advanced platform providing more sophisticated analytics capabilities (at a higher cost, of course!).
+
+    BusinessObjects
+
+    - BusinessObjects is an enterprise reporting tool from SAP that is designed to provide a comprehensive reporting and analytics environment for organizations.
+    - One of the strengths of this suite is the ability to integrate BusinessObjects reports with other applications, allowing organizations to integrate analytics into other portions of their workflow.
+
+    Understanding the Business Requirements
+
+    - Reports and dashboards both summarize data for end users, but they distribute those summaries in different ways. 
+    - A report is a static electronic or physical document that reflects information at a given point in time.
+    - On the other hand, a dashboard is an interactive visualization that encourages people to explore data dynamically.
+    - Both reports and dashboards are ideal tools for visualizing data content.
+
+    Understanding Report Design Elements
+
+    - Whenever you give people a tool, it should be approachable and easy to use.
+    - When creating a report or a dashboard, you can use existing design principles as guideposts.
+    - These design principles, known as the “five Cs” of creating visualizations, will help ensure that your reports and dashboards communicate clearly and efficiently.
+    -  When thinking visually, the five Cs are control, correctness, clarity, consistency, and concentration.
+
+    - Control has to do with how you focus the attention of your audience. When someone encounters a dashboard for the first time, one of your goals is to deliver the pertinent information quickly. For instance, if there is a place where people can adjust parameters and have the dashboard respond, use visual highlights to focus attention on this capability.
+
+    - Correctness makes sure that your information is accurate and that there are no spelling mistakes. Pay close attention to correctness when using corporate names and logos. For example, Procter & Gamble is a large consumer goods corporation. Misspelling the company name as “Proctor & Gamble” is embarrassing as it displays a lack of correctness.
+
+    - Clarity refers to selecting the right visualization tool for communicating your message, making sure the visualization is easy to interpret and visually crisp, and using fonts and sizes that are easy to read. For example, consider Figure 3, which uses an ornate font. While the diagram conveys the same information as Figure 2, the font compromises clarity and makes it hard to read.
+
+    - Consistency refers to using the same design and documentation elements throughout your report or dashboard to give your visualization a cohesive and complete feel. Using the same font, page layout, and web page design are all techniques for ensuring consistency.
+
+    - Concentration refers to using visuals to focus your audience's attention on the most relevant information without overwhelming them with details. Concentration, along with clarity and control, helps you focus your audience by reducing clutter and removing unnecessary details. Use a layout that increases concentration and removes distracting visual elements from charts. For example, suppose you are creating a report that summarizes quarterly sales performance. To improve concentration, only show the necessary summary statistics instead of including the raw daily sales data.
+
+    
+
+       
+ 
+    
    
 
       
