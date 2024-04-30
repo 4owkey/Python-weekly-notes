@@ -1378,9 +1378,106 @@ DAY 5
 
     - Concentration refers to using visuals to focus your audience's attention on the most relevant information without overwhelming them with details. Concentration, along with clarity and control, helps you focus your audience by reducing clutter and removing unnecessary details. Use a layout that increases concentration and removes distracting visual elements from charts. For example, suppose you are creating a report that summarizes quarterly sales performance. To improve concentration, only show the necessary summary statistics instead of including the raw daily sales data.
 
+#DATA GOVERNENCE WEEK 1
+
+DAY 1
+
+   Understanding Data Governance
+
+       What is meant by governance?
+
+  	- Governance is the manner in which an entity chooses to oversee the control and direction of an area of interest.
+   	- When entities grow and increase in complexity, formal governance becomes important.
+    	- The formality and structure that governance takes depend on context and intent.
+     	- The many domains that have adopted the term governance apply it relative to intent.
+
+       What is meant by data governance?
+
+	- Staff want to find the data they need quickly, and they want it to be high-quality data.
+ 	- This means the data needs to be accurate and current.
+  	- Leaders want data to provide the basis for rich insights that enable timely and informed data-driven decision-making.
+   	- To achieve these and other increasingly common business demands, you need some form of data control and accountability in your enterprise.
+    	- Quality results require the diligent management of your organization’s data.
+     	- Today, when data is managed well, it can drive innovation and growth and can be an enterprise’s most abundant and important lever for success.
+      	- Well-managed data can be transformational, and it can support the desirable qualities of a data-driven culture.
+       	- Successful data governance also means that data risks can be minimized, and data compliance and regulatory requirements can be met with ease. 
+
+
+  Data Governance Versus Data Management
+ 
+	- There is often confusion about the difference between data governance and data management.
+ 	- Data management is the technical implementation of data governance.
+
+  Data Governance versus Information Governance
+
+ 	- Data governance generally focuses on data, independent of its meaning.
+  	- Information governance is entirely concerned with the meaning of the data and its relationship in terms of outcomes and value to the organization, customers, and other stakeholders.
+
+  The Value of Data Governance
+
+ 	- Fundamentally, data governance is driven by a desire to increase the value of data and reduce the risks associated with it. It forces a leap from an ad hoc approach to data to one that is strategic in nature.
+
+  Creating a Data Governance Program
+
+  	- Depending on the level of sophistication and the nature of the business, the design and implementation of a data governance program can vary greatly.
+   	- Unfortunately, there’s no one-size-fits-all approach.
+
+
+  Developing a Data Governance Framework
+       
+    	- You cannot buy a data governance program off the shelf.
+     	- Organizations must implement a program relative to its level of interest, as well as its needs, budget, and capabilities.
+        - Regardless of how and to what degree you implement the elements of a data governance program, you’ll need a basic set of guiding concepts and a structure in which to apply them.
+	- This is called the data governance framework.
+
+ 	Leadership and Strategy
+
+  	- Your data governance program must be aligned with the strategy of the organization.
+   	- Data plays a role in many aspects of organizational strategy, including risk management, innovation, and operational efficiencies, so you must ensure there’s a clear alignment between these aspects and the goals of data governance.
+
+	 Roles and Responsibilities
+
+	- Your data governance program will only be possible with the right people doing the right things at the right time.
+ 	- Every data governance framework includes the identification and assignment of specific roles and responsibilities, which range from the information technology (IT) team to data stewards.
+
+	Policies, Processes, and Standards
+
+  	- At the heart of every data governance program are the policies, processes, and standards that guide responsibilities and support uniformity across the organization.
+   	- Each of these must be designed, developed, and deployed.
+    	- Depending on the size and complexity of the organization, this can take significant effort.
+
+	Metrics
+
+ 	- The data governance program must have a mechanism to measure whether it is delivering the expected results.
+  	- Capturing metrics and delivering them to a variety of stakeholders is important for maintaining support, which includes funding. You’ll want to know if your efforts are delivering on the promise of the program.
+
+   	Tools
+
+    	- Fortunately, a large marketplace now exists for tools in support of data governance and management.
+     	- These include tools for master data management, data catalogs, search, security, integration, analytics, and compliance.
+      	- In recent years, many data science-related tools have made leaps in terms of incorporating ease-of-use and automation.
+
+       Communications and Collaboration
+
+       - With the introduction of data governance and the ongoing, sometimes evolving, requirements, high-quality communications are key.
+       - This takes many forms, including in-person meetings, emails, newsletters, and workshops.
+       - Change management, in particular, requires careful attention to ensure that impacted team members understand how the changes brought about by the data governance program affect them and their obligations.
     
 
-       
+ Preparing for Data Governance
+
+       - Data governance requires careful treatment, beginning with understanding whether an organization is ready to accept it.
+       - Being ready as an organization involves determining the extent to which a data culture exists.
+       - As mentioned, any misalignment here is the number one reason data governance program deployments fail.
+
+       What is data culture?
+
+       - Many well-designed projects and initiatives fall flat and fail even though their teams seem to have done everything right.
+       - Too often, the work gets deployed into an environment that is either not ready for change or doesn’t have the optimum conditions for success.
+       - Culture will always defeat the greatest of strategies almost every time.
+       - Effective data cultures support and empower all employees, from the newest intern to the CEO, to access and use meaningful and timely data for their work.
+       - Such cultures ensure that employees have attained the skills they need to use data analytics and can make good data-driven decisions.
+       - 
  
     
    
