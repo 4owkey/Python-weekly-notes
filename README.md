@@ -1477,11 +1477,102 @@ DAY 1
        - Culture will always defeat the greatest of strategies almost every time.
        - Effective data cultures support and empower all employees, from the newest intern to the CEO, to access and use meaningful and timely data for their work.
        - Such cultures ensure that employees have attained the skills they need to use data analytics and can make good data-driven decisions.
-       - 
- 
-    
-   
 
+Maturing the Data Culture
+
+       - If you decide that you need to better prepare the organization for data governance by maturing the data culture, consider these items to start.
+       - Help leaders communicate the value of data and model the type of behavior that demonstrates that data is a priority. This must include communicating the positive results of using data.
+       - Provide basic tools and education for data use that include manipulating data, analytics, data cleansing, basic query commands, and visualization. Don’t overlook the remarkable capabilities of common applications such as spreadsheets.
+       - Recognize that resistance and frustration are part of the journey. Rather than fighting it, find ways to bring comfort and rewards to team members. At a minimum, provide a channel for feedback and positive discussion.
+
+       Defining Data
+
+       - Data has a specific meaning and it’s really important to be clear on the definition, particularly as we start talking about information, knowledge, and insights.
+
+       Why all the focus on data?
+
+       - Data refers to collections of digitally stored units, in other words, stuff that is kept on a computing device.
+       - These units represent something meaningful when processed for a human or a computer. 
+       - the term data is often used in singular and plural contexts.
+       - If we place the word orange in a sentence, such as “An orange is a delicious fruit,” suddenly the data has meaning. 
+       - Similarly, if we say, “The t-shirt I purchased cost me R42.00,” then the number 42 now has meaning.
+
+Welcome to The Zettabyte Era
+
+      - A zettabyte is a big number. 
+      - It’s 1021, or a 1 with 21 zeros after it.
+      - If you own a terabyte drive at home or for school, you’d need one billion of those drives to store just one zettabyte of data.
+
+      From Data to Insight
+
+      - Creating, collecting, and storing data is a waste of time and money if it’s being done without a clear purpose or intent to use it in the future.
+      - When we apply information coupled with broader contextual concepts, practical application, and experience, it becomes knowledge.
+      - Knowledge is actionable.
+      - To go further than this. When we take new knowledge and apply reasoning, values, and the broader universe of our knowledge and deep experiences, we get wisdom.
+      - Finally, insight is an outcome that can emerge from knowledge but is best demonstrated through a combination of knowledge and wisdom.
+
+The Role of Data in the 21st Century
+
+      - Since the early days of data processing in the 19th and 20th centuries right through to digital transformation in the 21st century, data has played many important roles.
+      - It’s helped us understand the world in completely new ways, improved our ability to make better-informed decisions, and supported our efforts to solve all manner of problems.
+      - The value data that has been added over the course of many decades has not remained flat.
+      - There’s an argument that data has become the most valuable asset in the world.
+      
+ Data-Driven Decision-Making
+    
+      - Perhaps one of the greatest values of data is its ability to help us all make better decisions.
+
+ Data as The New Oil
+
+      - A popular refrain coined by the mathematician Clive Humby in 2006 is that data is the new oil.
+      - Just as oil drove and grew economies in the past, data is doing that now. Some have subsequently added that just like oil, data has value but must first be processed to be useful.
+
+  Data Architecture
+
+      - In the same manner, which you can consider the holistic nature of EA in support of the organization’s strategy, data architecture is the manner in which data design and management decisions are being made to align with EA and in turn, with the business.
+      - Data architecture is a direct reflection of data governance.
+      - An established and functioning data architecture immediately signals that an organization values data, manages it as a critical business asset, and has controls in place to ensure that it aligns with business needs.
+      - Indeed, like EA, data architecture is not the exclusive realm of technologists but a cross-organizational responsibility.
+
+  Understanding the Impact of Big Data
+
+      - In fact, we’ve been capturing and storing data in an analog fashion for thousands of years.
+      - The Romans, for example, used ledgers to keep track of their various activities across their expansive empire.
+      - Fast-forward to the 20th century and the Cold War was instrumental in the technological leaps that resulted in microprocessors and the classical computing we use today.
+
+      The Role of The U.S. Census in The Information Revolution
+
+      - Processing data on some form of computing device has been around since the late 1800s.
+      - To count census results, handwritten results were converted to punched holes in cards.
+      - The Tabulating Machine Company was later renamed International Business Machines, IBM.
+
+Defining Big Data
+
+      - Big data is structured and unstructured data that is so massive and complex in scale, that it’s difficult and often impossible to process via traditional data management techniques.
+
+      Consequences of Big Data
+
+      - In a time when advertising was mainly billboards and newspapers, it was nearly impossible to know which advertising resulted in a sale.
+
+      Enter the Realm of Smart Data
+
+      - Smart data has emerged as a new term that defines big data that’s been optimally prepared for use to deliver the highest business value.
+
+ Driving Value Through Data
+
+     - Data isn’t something that just concerns the data analytics team or the information technology department.
+     - It’s also not something that is limited to decision-makers and leaders.
+
+     Operations
+
+     - Each business has different needs, and operational functions reflect these specific requirements.
+     - Some core functions show up in almost every organization.
+     - Consider payroll, order management, and marketing.
+     - At the same time, some operational support won’t be required. Not every organization needs its own IT organization, or if it’s a service business, it may not have a warehouse.
+     - The performance of operations is often easily quantified by data.
+     - 
+
+  
       
    
 
