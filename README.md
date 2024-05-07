@@ -1558,6 +1558,9 @@ Defining Big Data
 
       - Smart data has emerged as a new term that defines big data that’s been optimally prepared for use to deliver the highest business value.
 
+week 2
+day1
+
  Driving Value Through Data
 
      - Data isn’t something that just concerns the data analytics team or the information technology department.
@@ -1570,14 +1573,102 @@ Defining Big Data
      - Consider payroll, order management, and marketing.
      - At the same time, some operational support won’t be required. Not every organization needs its own IT organization, or if it’s a service business, it may not have a warehouse.
      - The performance of operations is often easily quantified by data.
-     - 
 
+     REPORTING
+
+     - Perhaps the most obvious manifestation of data and information management in any organization is the use of reports.
+     - Some say they are the backbone of every business.
+     - The content of a report, which can be summarized or detailed, contains data and information in a structured manner.
+     - The report may have a discussion of the findings and will conclude with a summary and sometimes a set of recommendations.
+     - With so many uses of data and information, the purpose of reporting is largely about improved decision-making.
+
+     IMPROVING OUTCOMES WITH DATA
+
+     - Now that the diverse roles of data have been identified and discussed, it’s useful to understand how data can be leveraged to acquire its maximum value. 
+     - It begins with recognizing that data is an organizational asset.
+     - This simply means that it’s something that brings economic value to the organization.
+
+     APPROACHING DATA AS AN ASSET
+
+     - An asset is something that is owned by a person, an organization, or a government with the expectation that it can bring some economic benefit. 
+     - An asset can be tangible or intangible. Tangible assets are physical things such as inventory, machines, and property. That’s stuff you can see and touch. An intangible asset is the opposite; it’s a non-physical thing like software, copyrights, a brand, and goodwill. Data is an intangible asset.
+
+     - In addition, capturing and valuing assets is required for determining tax obligations and for acquiring loans.
+
+     DATA ANALYTICS
+
+     - Raw data is largely useless.
+     - In order to make sense of data, you have to apply specific tools and techniques.
+     -  The process of examining data in order to produce answers or find conclusions is called data analytics.
+     - Data analytics has four primary types.
+     - Data governance concerns itself with, for example, defining the roles, policies, controls, and processes for increasing the quality and value of organizational data.
+     - Data management is the implementation of data governance. Without data management, data governance is just wishful thinking. To get value from data, there must be execution.
+
+     GOVERNING DATA
+
+     - Governing data means that some level of control exists to support a related policy.
+     - For example, an organization may decide that to reduce risk, there needs to be a policy that requires data to be backed up every day. The control would be the documentation of the process and enforcement of that policy. If, in the review of policy adherence, data wasn’t getting backed up, then you’d quickly know that governance, for whatever reason, was not working.
+     - To fully realize the potential of data in your organization means that data must be governed. Any time an organizational resource or asset is left unmanaged, it’s either a recipe for disaster or a missed opportunity. Even a small amount of governance beats no governance every single day.
+
+TRANSFORMING THROUGH DATA
+
+   EXAMINING THE BROADER VALUE OF DATA
+
+     - In small organizations or when a business is first created, only a few systems are used, and team members know the type and location of most of the data that is available.
+     - As organizations grow and more systems are employed, eventually no single person knows what data is available and where it is in the enterprise. Without this knowledge, the ability to properly govern your data and leverage its value is greatly hampered. Without deliberate actions, data democratization becomes elusive.
+     - Data silos hinder business efficiencies because they reduce collaboration and increase data inconsistencies.
+     - In addition, they are a source of risk, including security and regulatory issues.
+     - Data governance helps eliminate unnecessary data siloes and makes data discoverable and available whenever and wherever it adds value.
+     - Data catalogs, discussed in this chapter, are an essential way that data governance can help solve these limitations.
+
+     
+DATA CATALOGS
+
+     - You can take a few approaches to assist your organization so that your team members can find data. One option involves the creation of an enterprise search engine. 
+     - It’s certainly possible, but not easy, and will face some limitations such as the discoverability of confidential data that is deliberately siloed.
+     - Another, increasingly popular, method of data discoverability is the creation of an enterprise data catalog.
+     - Like a store catalog that categorizes products and includes details such as availability and price, a data catalog lists the availability of data sets and includes a wide range of valuable details about that data.
+     - A data catalog is more than just a list of all data sets.
+     - What makes a data catalog particularly valuable is that it contains data about the data. It’s called metadata.
+     - This content can be curated manually and also by automated processes which can acquire it from other sources.
+     - A data catalog can contain three types of metadata: technical, business, and operational.
+     - For a large number of stakeholders ranging from data analysts to data stewards, a data catalog presents many advantages.
+     - Primarily, the ability to find data tops the list.
+
+FROM DATA TO INSIGHTS
+
+     - In a business context, deriving insights is almost the entire point of collecting data.
+     - Insight provides a deep understanding of something and is the ultimate positive manifestation of data. 
+     - It has the highest value to an organization because it can support decisions and drive actions.
+     - If you can’t use your data to make better decisions and drive your organization forward, the data may just be worthless.
+
+DATA MONETIZATION
+
+     - An asset is something owned that has the expectation of delivering value.
+     - Unlike tangible assets such as inventory and property, data falls into the same category as assets such as copyrights and software.
+     - Intuitively, when something has a high value, it’s likely to be treated differently from things with little value.
+     - Without a process to place a price on a data set - called data valuation - the value of a given data set may be highly subjective and may differ considerably between the perspectives of team members.
+     - Without this knowledge, it’s much harder to take advantage of the opportunities that some data sets may provide, such as business growth and operational excellence.
+     - When data provides an economic benefit to an organization, it's called data monetization.
+     - Assuming your organization realizes that data is a strategic corporate asset, you must be intentional in how you manage that asset. 
+     - For optimal data monetization, organizations must manage high-value data with the same priority and rigor (and maybe even more) that it treats its most important tangible assets.
   
-      
+Data-Driven Decision Making   
    
+     - Simply stated, data-driven decision-making (DDDM) is the process of using data to drive business decisions.
+     - For DDDM to be really effective and to contribute to high performance, an organization needs a data culture, and specific skills and tools.
+     - Critically, there must be leadership support for a culture that advocates decisions rooted in data appreciation and analytics. Executives who demonstrate DDDM are role models for the entire enterprise.
+     - In practical terms, it also means enabling team members to have access to data, tools, and training.
 
-    
-    
+Developing a Data Strategy for Improved Results
+
+     - Rather than having a plan and making strategic data-related investments, actions are either complementary to larger initiatives or responsive to some immediate challenge or opportunity.
+     - That said, once you make the decision to manage data as the high-value asset it is, you’re going to need a plan. That’s when a data strategy becomes the starting point.
+     - Businesses have visions that describe why they exist. They have missions that state what they do. To achieve their visions and missions, a strategy will answer how they will do it.
+     - The behavior and outcomes of organizations that have a clear and agreed-upon strategy are often evident. Research shows that they typically execute with efficiency, have higher profits, grow larger, and more frequently hit their other success targets.
+     
+    - Strategy can apply to processes and assets too. Having a strategy for strategies might be important too.
+    - A good data strategy will guide decision-making and resource allocation around data in support of the organization. It will demonstrate and communicate data as a priority and ensure that it is treated in a manner to optimize the success of the organization.
 
 
 
