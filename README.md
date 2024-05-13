@@ -1670,15 +1670,64 @@ Developing a Data Strategy for Improved Results
     - Strategy can apply to processes and assets too. Having a strategy for strategies might be important too.
     - A good data strategy will guide decision-making and resource allocation around data in support of the organization. It will demonstrate and communicate data as a priority and ensure that it is treated in a manner to optimize the success of the organization.
 
+#WEEK 1POWER BI
 
+  DAY 1
 
+  INTRODUCTION
 
+    - Microsoft Power BI is a complete reporting solution that offers data preparation, data visualization, distribution, and management through development tools and an online platform.
+    - Power BI can scale from simple reports using a single data source to reports requiring complex data modeling and consistent themes.
+    - Use Power BI to create visually stunning, interactive reports to serve as the analytics and decision engine behind group projects, divisions, or entire organizations.
 
+  USE POWER BI
 
+    - Power BI Desktop is the development tool available to data analysts and other report creators.
+    - While the Power BI service allows you to organize, manage, and distribute your reports and other Power BI items.
 
+  EXPLORE THE FLOW OF POWER BI
 
+    - There's a common flow when creating reports with Power BI.
+    - First, you start with Power BI Desktop to connect to data and create the report. Then you publish the report to the Power BI service and distribute to consumers.
+    - The Power BI service also allows you to create high-level dashboards that drill down to reports, and apps to easily group related reports to users in a simple format.
 
+  
+BUILDING BLOCKS OF POWER BI
 
+    - The building blocks of Power BI are semantic models and visualizations.
+    - Create a semantic model and then use visuals to build a report.
+
+CREATE A SEMANTIC MODEL
+
+    - A semantic model consists of all connected data, transformations, relationships, and calculations.
+    - To follow the flow of Power BI, you first connect to data, transform data, and create relationships and calculations to create a semantic model.
+
+    CREATE VISUALIZATIONS IN REPORT
+
+    - In Power BI Desktop, when you create a visualization (also called visual), you add it to the canvas for a report page.
+    - Choose your visualizations to build pages in your report.
+    - Power BI is a low-code solution, which means that you can "drag and drop" data field directly onto the canvas.
+    - One of the most valuable features of Power BI reports is the interactivity between visuals.
+
+    CREATE A DASHBPOARD
+
+    - In the Power BI service, you can also create dashboards after you've published a report.
+    - Dashboards consist of a single page made up of tiles.
+    - Add tiles to a dashboard by pinning a visual in a report to the dashboard.
+    - Tiles aren't interactive like visuals, so when a user interacts with the tile, they go to the underlying report for more information.
+    - Dashboards are an excellent way to provide high-level information to consumers.
+
+TOUR AND USE THE POWER BI SERVICE
+
+    ORGANIZE ITEMS WIH WORKSPACES
+
+    - Workspaces are the foundation of the Power BI service.
+    - When publishing any report, you must choose a workspace.
+    - By default, every user has access to My workspace, which is ideal only for testing.
+
+    EXPLORE SAMPLE REPORTS
+
+    - 
          
 
 
